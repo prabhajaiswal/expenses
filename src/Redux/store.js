@@ -10,4 +10,4 @@ const store = (0, toolkit_1.configureStore)({
         expenses: reducer_1.default, // Use the expensesReducer for the 'expenses' slice of the state.
     },
 });
-exports default store;
+exports.default  = store;
