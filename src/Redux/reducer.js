@@ -16,4 +16,4 @@ const expensesReducer = (state = initialState, action) => {
             return state;
     }
 };
-exports.default = expensesReducer;
+exports default  expensesReducer;
